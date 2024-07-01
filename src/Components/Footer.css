@@ -1,0 +1,178 @@
+.body-footer{
+    background: #F5E9D4;
+    height: 483px;
+    padding: 0px 130px 0px 130px;
+}
+
+.lms-img-container{
+    margin: -50px 0px 0px 0px;
+    padding: 6px 6px 6px 6px;
+    background-color: #FDF6EA;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.lms-icon-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.small-body-footer{
+    display: flex;
+    padding: 60px 0px 60px 0px;
+    justify-content: space-between;
+}
+
+.about-us-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 262px;
+}
+
+.about-us-footer span{
+    color: #303030;
+    font-size: 20px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.about-us-para{
+    display: flex;
+    flex-direction: column
+}
+
+.about-us-para p{
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+    color: #808080;
+    font-weight: 400;
+}
+
+.about-us-a{
+    color: #838c48;
+    border-width: 2px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid;
+    padding: 0.7em 1.5em;
+}
+
+.about-us-a span{
+    color: #838c48;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.popular-courses{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.popular-courses a{
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.popular-courses span{
+    color: #838C48;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vector25{
+    width: 10px;
+    height: 10px;
+}
+
+.quick-links-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.quick-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fk-line-8{
+    right: 10px;
+    height: 1px;
+    background-color: #30303026;
+}
+
+.links-quick{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.links-quick span{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #808080;
+}
+
+.contact-us-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vector10{
+    width: 15px;
+    height: 15px;
+}
+
+.us-contact{
+    display: flex;
+    gap: 10px;
+}
+
+.us-contact span{
+    font-size: 14px;
+    color: #808080;
+    font-family: 'Open-Sans',sans-serif;
+}
+
+.bottom-footer{
+    background-color: #838c48;
+    padding: 32px 130px 32px 130px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-container{
+    display: flex;
+    gap: 10px;
+}
+
+.copyright-container span{
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+    color: #FFFFFF;
+}
+
+.vector14{
+    width: 20px;
+    height: 20px;
+}
+
+.branch-icons{
+    display: flex;
+    gap: 30px;
+}

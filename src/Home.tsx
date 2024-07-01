@@ -1,4 +1,5 @@
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import "./Home.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { IoDocumentText } from "react-icons/io5";
@@ -79,7 +80,7 @@ function Home() {
               >
                 <img
                   className="vector7"
-                  src="../src/assets/Images/vector7.svg"
+                  src="../src/assets/Images/vector26.svg"
                   alt="vector7"
                 />
               </a>
@@ -268,13 +269,123 @@ function Home() {
               </div>
       </div>
       <div className="event">
+        <div className="event-container">
           <div className="upcoming-event">
-
+              <div className="text-event-container">
+                <span>UPCOMING EVENTS</span> 
+                <span className="fk-line-5"></span>
+              </div>  
+              <div className="top-left-event">
+                <div className="left-arrow-event">
+                  <img className="vector5" src="../src/assets/Images/vector5.svg" alt="vector"/>
+                </div>
+                <div className="right-arrow-event">
+                  <img className="vector5" src="../src/assets/Images/vector6.svg" alt="vector"/>
+                </div>
+              </div>
           </div>
           <div className="welcome-batch">
-              
+              <img className="event-img" src="../src/assets/Images/event.jpg" alt="vector"/>
+              <div className="text-welcome-batch">
+                <a>Welcoming 25th Batch</a>
+                <p className="small-text-welcome">
+                  <span>December 12, 2024 @ 8:00 am
+                    -  
+                  December 13, 2025 @ <br/>5:00 pm</span>
+                </p>
+                  <div>Peppard Hill, Unites States</div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div className="email-sub">
+          <div className="email-sub-background">
+              <div className="email-sub-container">
+                  <span>GET TOUCH WITH US</span>
+                      <div>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which Ipsum slightly believable</div>
+                  <form className="form">
+                      <input type="email" className="email-id" placeholder="Your Email Address" ></input>
+                      <button className="sub-button"><span>SUBSCRIBE</span></button>
+                  </form>
+              </div>
           </div>
       </div>
+      <div className="process">
+          <div className="process-container">
+              <div className="process-title">
+                <span>OUR PROCESS</span>
+                <span className="fk-line-5"></span>
+              </div>
+              <div className="step-1">
+                <div className="step-1-left">
+                    <h5>Step 01</h5>
+                    <div className="step-1-left-text-search">Search for your course</div>
+                    <div className="step-1-search">
+                        <div>Nemo enim ipsam voluptatem quia voluptas sit atur aut odit aut fugit, sed <br/>
+                          quia consequuntur magni res.</div>
+                        <img className="vector23" src="../src/assets/Images/vector23.svg" alt="vector"/>
+                    </div>
+                </div>
+                  <div className="step-1-ball-bar">
+                    <div className="step-1-ball"></div> 
+                    <div className="step-1-bar"></div>
+                    <div className="step-1-ball-2"></div>
+                    <div className="step-1-bar-2"></div>
+                  </div>
+                    <div className="step-1-right"></div>
+              </div>
+              <div className="step-2">
+                  <div className="step-2-right"></div>
+                    <div className="step-2-ball-bar">
+                    <div className="step-1-ball-2"></div>
+                    <div className="step-1-bar-2"></div>
+                  </div>
+                    <div className="step-2-left">
+                    <h5>Step 02</h5>
+                    <div className="step-1-left-text-search">Take a Sample Lesson</div>
+                    <div className="step-1-search">
+                        <img className="vector23" src="../src/assets/Images/vector18.svg" alt="vector"/>
+                        <div>Nemo enim ipsam voluptatem quia voluptas sit atur aut odit aut fugit, sed <br/>
+                          quia consequuntur magni res.</div>
+                    </div>
+                </div>
+              </div>
+              <div className="step-3">
+              <div className="step-3-left">
+                    <h5>Step 03</h5>
+                    <div className="step-1-left-text-search">Preview the Syllabus</div>
+                    <div className="step-1-search">
+                        <div>Nemo enim ipsam voluptatem quia voluptas sit atur aut odit aut fugit, sed <br/>
+                          quia consequuntur magni res.</div>
+                        <img className="vector23" src="../src/assets/Images/vector17.svg" alt="vector"/>
+                    </div>
+                </div>
+                  <div className="step-1-ball-bar">
+                    <div className="step-1-ball-2"></div>
+                    <div className="step-1-bar-2"></div>
+                  </div>
+                    <div className="step-1-right"></div>
+              </div>
+              <div className="step-2">
+                        <div className="step-2-right"></div>
+                          <div className="step-2-ball-bar">
+                          <div className="step-1-ball-2"></div>
+                          <div className="step-1-bar-2"></div>
+                          <div className="step-1-ball"></div> 
+                        </div>
+                        <div className="step-2-left">
+                          <h5>Step 04</h5>
+                          <div className="step-1-left-text-search">Purchase the Course</div>
+                          <div className="step-1-search">
+                              <img className="vector23" src="../src/assets/Images/vector16.svg" alt="vector"/>
+                              <div>Nemo enim ipsam voluptatem quia voluptas sit atur aut odit aut fugit, sed <br/>
+                                quia consequuntur magni res.</div>
+                          </div>
+                      </div>
+              </div>  
+          </div>
+      </div>
+      <Footer />
     </>
   );
 }
