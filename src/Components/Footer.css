@@ -54,12 +54,21 @@
     text-align: center;
     border: 2px solid;
     padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-right: 50px;
 }
 
+.about-us-a:hover{
+    background: #838C48;
+}
 .about-us-a span{
     color: #838c48;
     font-size: 14px;
     font-weight: bold;
+}
+
+.about-us-a:hover span{
+    color: #fff;
 }
 
 .popular-courses{
@@ -73,6 +82,11 @@
     color: #000000;
     font-size: 16px;
     font-family: 'Raleway',sans-serif;
+    cursor: pointer;
+}
+
+.popular-courses a:hover{
+    color: rgb(218, 133, 61);
 }
 
 .popular-courses span{
@@ -109,6 +123,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    cursor: pointer;
 }
 
 .links-quick span{
@@ -138,6 +153,7 @@
 .us-contact{
     display: flex;
     gap: 10px;
+    cursor: pointer;
 }
 
 .us-contact span{
@@ -167,6 +183,19 @@
     color: #FFFFFF;
 }
 
+.copyright{
+    cursor: default;
+}
+
+.design-themes{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.design-themes:hover{
+    color: #da853d;
+}
+
 .vector14{
     width: 20px;
     height: 20px;
@@ -175,4 +204,5 @@
 .branch-icons{
     display: flex;
     gap: 30px;
+    cursor: pointer;
 }

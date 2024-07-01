@@ -22,6 +22,12 @@
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  color: #303030;
+  cursor: pointer;
+}
+
+.sti-text:hover{
+  color:#838c48;
 }
 
 .sti-img{
@@ -82,6 +88,11 @@
   align-items: center;
   border-radius: 3px;
   position: relative;
+  cursor: pointer;
+}
+
+.prev:hover{
+  background-color: #838c48;
 }
 
 .next{
@@ -96,6 +107,10 @@
   align-items: center;
   border-radius: 3px;
   position: relative;
+}
+
+.next:hover{
+  background-color: #838c48;
 }
 
 .vector7{
@@ -152,6 +167,11 @@
   align-items: center;
   height: 25px;
   width: 140px;
+}
+
+.about-courses a:hover{
+  background-color:#838c48;
+  color: #fff;
 }
 
 .img-courses {
@@ -290,6 +310,11 @@ many-many-stuffs{
   padding-top: 15px;
   font-size: 25px;
   color: #838c48;
+  cursor: pointer;
+}
+
+.ico-format:hover{
+  color: #da853d;
 }
 
 .text-blog-holder{
@@ -325,6 +350,11 @@ many-many-stuffs{
   font-size: 14px;
   font-weight: normal;
   flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.entry-meta-group a:hover{
+  color: #da853d;
 }
 
 .elementer-section{
@@ -420,7 +450,14 @@ many-many-stuffs{
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
   color: #303030;
+  cursor:default;
 }
+
+
+.elementer-small-container h5:hover{
+  color:#da853d
+}
+
 
 .event{
   padding: 10px 130px 0px 130px;
@@ -471,6 +508,12 @@ many-many-stuffs{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor:not-allowed;
+}
+
+.left-arrow-event:hover{
+  background-color: #838c48;
+  border: #fff;
 }
 
 .right-arrow-event{
@@ -480,6 +523,12 @@ many-many-stuffs{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor:not-allowed;
+}
+
+.right-arrow-event:hover{
+  background-color: #838c48;
+  border: #fff;
 }
 
 .welcome-batch{
@@ -508,7 +557,13 @@ many-many-stuffs{
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
   color:#303030;
+  cursor: pointer;
 }
+
+.text-welcome-batch a:hover{
+  color: #838c48;
+}
+
 
 .small-text-welcome{
   font-size: 14px;
@@ -592,6 +647,11 @@ many-many-stuffs{
   border-radius: 3px;
   border: 1px solid #838c48;
   padding: .75em 1.5em;
+  cursor: pointer;
+}
+
+.sub-button:hover{
+  background-color: #303030;
 }
 
 .sub-button span{

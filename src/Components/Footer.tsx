@@ -116,9 +116,9 @@ function Footer(){
                 <div className="bottom-footer">
                     <div className="footer-bottom">
                         <div className="copyright-container">
-                            <span>Copyright © 2020 LMS Theme All Rights Reserved</span> 
+                            <span className="copyright">Copyright © 2020 LMS Theme All Rights Reserved</span> 
                             <span>|</span>
-                            <span>Design Themes</span>
+                            <span className="design-themes">Design Themes</span>
                         </div>
                         <div className="branch-icons">
                             <img className="vector14" src="../src/assets/Images/vector14.svg" alt="vector"/>
