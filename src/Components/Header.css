@@ -43,6 +43,11 @@
 }
 
 .dropdown a.active{
+  text-decoration: none;
+  color: #838c48;
+}
+
+.home-href a.active{
   border: 2px solid;
   text-decoration: none;
   color: #303030;
@@ -255,7 +260,7 @@
   border: 1px solid #e2d6c1;
   padding: 15px;
   border-top: 3px solid #e2d6c1;
-  top: 70px;
+  top: 55px;
   transition: all 0.2s ease-in;
   border-radius: 0 0 3px 3px;
 }
@@ -293,6 +298,10 @@
 }
 
 .dropdown:hover .dropdown-content-gallery{
+  display: block;
+}
+
+.dropdown:hover .dropdown-content-shop{
   display: block;
 }
 
@@ -354,7 +363,7 @@
   border: 1px solid #e2d6c1;
   padding: 30px;
   border-top: 3px solid #e2d6c1;
-  top: 70px;
+  top: 55px;
   transition: all 0.2s ease-in;
   border-radius: 0 0 3px 3px;
   margin-left: -460px;
@@ -421,7 +430,7 @@
   border: 1px solid #e2d6c1;
   padding: 30px;
   border-top: 3px solid #e2d6c1;
-  top: 70px;
+  top: 55px;
   width: 970px;
   transition: all 0.2s ease-in;
   border-radius: 0 0 3px 3px;
@@ -456,4 +465,98 @@
   border-radius: 3px;
   cursor: pointer;
   margin-left: 120px;
+}
+
+.products-column-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+  color: #303030;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cover2{
+  width: 50px;
+  height: 45px;
+  border: 1px solid;
+  padding: 3px;
+  float: right;
+}
+
+.application-development{
+  display: flex;
+  gap: 40px;
+}
+
+.application-development-title{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.application-development-title div{
+  display: flex;
+}
+
+.dropdown-shop-container{
+  display: flex;
+  gap: 150px;
+}
+
+.dropdown-content-shop{
+  display: none;
+  position: absolute;
+  background-color: #fdf6ea;
+  box-shadow: 0 5px 5px 0 #e2d6c1;
+  z-index: 10;
+  border: 1px solid #e2d6c1;
+  padding: 30px;
+  border-top: 3px solid #e2d6c1;
+  top: 55px;
+  transition: all 0.2s ease-in;
+  border-radius: 0 0 3px 3px;
+  margin-left: -688px;
+}
+
+.popular-products-shop{
+  width: 120px;
+  margin-right: 200px;
+}
+
+.popular-products{
+  width: 190px;
+}
+
+.line-through{
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.development-application{
+  font-size: 14px;
+  color: #303030;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+}
+
+.last-fk-line{
+  border-bottom: 1px solid #808080;
+  width: 189px;
+}
+
+.database-title{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.background-cover-1{
+  background: rgba(245, 233, 212, 0.5);
+  height: 150px; 
+  backdrop-filter: blur(3px) rgba(245, 233, 212, 0.5);
 }

@@ -1,0 +1,254 @@
+.teachers-categories{
+    padding: 0px 0px 20px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #e2d6c1;
+    border: 4px solid #f5e9d4;
+    margin-top: 20px;
+}
+
+.categories-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-container h2{
+    color: #303030;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.fk-line-cate{
+    height: 3px;
+    width: 35px;
+    background-color: #838c48;
+}
+
+.teachers-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.teachers-categories a{
+    border-bottom: 1px solid;
+    border-color: rgba(48,48,48,0.05);
+    padding-bottom: 15px;
+}
+
+.recent-comments{
+    margin-top: 20px;
+    padding: 0px 10px 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #e2d6c1;
+    border: 4px solid #f5e9d4;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.courses-template-teachers-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.comments-text-1{
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid;
+    border-color: rgba(48,48,48,0.05);
+    padding-bottom: 10px;
+}
+
+.comments-text-2{
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+.comments-text-2 a{
+    color: #303030;
+    font-weight: 700;
+}
+
+.comments-text-2 span{
+    color: #808080;
+    font-weight: 400;
+}
+
+.comments-text-1 a{
+    color: #303030;
+    font-weight: 700;
+}
+
+.comments-text-1 span{
+    color: #808080;
+    font-weight: 400;
+}
+
+.three-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.three-boxes a{
+    font-size: 14px;
+    padding: 7px 15px;
+    border: 2px solid #303030;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.blog-chat{
+    display: flex;
+    gap: 10px;
+}
+
+.tips{
+    margin-right: auto;
+}
+
+.contrary{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contrary-bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid;
+    border-color: rgba(48,48,48,0.05);
+    padding-bottom: 10px;
+}
+
+.contrary-bottom p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-family: 'Open Sans',sans-serif;
+    color: #808080;
+    font-weight: 500;
+}
+
+.contrary-bottom-p-icon{
+    width: 13px;
+    height: 13px;
+    color: #838c48;
+}
+
+.contrary-bottom a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-family: 'Open Sans',sans-serif;
+    color: #808080;
+    font-weight: 500;
+}
+
+.contrary-bottom-a-icon{
+    width: 13px;
+    height: 13px;
+    color: #838c48;
+}
+
+.teachers-template-main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.teacher-img{
+    width: 262px;
+    height: 262px;
+}
+
+.teachers-avatar{
+    text-align: center;
+    background-color: #f5e9d4;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.teachers-title{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teachers-title a{
+    color: #DA853D;
+    font-size: 16px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+}
+
+.teachers-title h5{
+    color: #303030;
+    font-size: 14px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+}
+
+.teachers-fk-line{
+    height: 2px;
+    width: 40px;
+    background: #838c48;
+}
+
+.teachers-social{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.teachers-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.fb{
+    height: 20px;
+    width: 20px;
+}
+
+.tw{
+    height: 14px;
+    width: 14px;
+}
+
+.teachers-template-top{
+    display: flex;
+    gap: 10px;
+}
+
+.teachers-avatar-bottom{
+    text-align: center;
+    background-color: #f5e9d4;
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}

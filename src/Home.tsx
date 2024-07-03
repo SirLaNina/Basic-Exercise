@@ -6,8 +6,10 @@ import { IoDocumentText } from "react-icons/io5";
 import { MdOutlineBookmark } from "react-icons/md";
 
 function Home() {
+  
   return (
     <>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <Header />
       <div className="symbols-4">
         <div className="small-symbols-4">
